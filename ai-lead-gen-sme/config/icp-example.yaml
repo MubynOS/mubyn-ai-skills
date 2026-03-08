@@ -1,0 +1,72 @@
+# Ideal Customer Profile (ICP) Configuration
+# AI Lead Gen SME by Mubyn
+
+ideal_customer_profile:
+  # Company attributes
+  company_size:
+    min: 10
+    max: 200
+    weight: 0.20  # 20% of total score
+  
+  # Target industries (case-insensitive matching)
+  industries:
+    - restaurant
+    - hospitality
+    - retail
+    - ecommerce
+    - food & beverage
+    - cafe
+    - hotel
+    weight: 0.25  # 25% of total score
+  
+  # Target locations
+  locations:
+    - Dubai
+    - Abu Dhabi
+    - Sharjah
+    - Riyadh
+    - Jeddah
+    - Kuwait
+    - Doha
+    - Manama
+    weight: 0.15  # 15% of total score
+  
+  # Decision-maker titles
+  titles:
+    - CEO
+    - Founder
+    - Co-Founder
+    - Owner
+    - Managing Director
+    - General Manager
+    - Director of Operations
+    - COO
+    - President
+    weight: 0.25  # 25% of total score
+  
+  # Bonus signals
+  has_website: 0.05      # 5% bonus if has website
+  has_linkedin: 0.05     # 5% bonus if has LinkedIn
+  verified_email: 0.05   # 5% bonus if email verified
+
+# Scoring tier thresholds
+scoring_tiers:
+  hot: 80      # Score >= 80 = Hot lead (prioritize)
+  warm: 60     # Score 60-79 = Warm lead (nurture)
+  cold: 0      # Score < 60 = Cold lead (long-term)
+
+# Negative signals (subtract from score)
+# Add these to disqualify leads
+disqualifiers:
+  - "looking for job"
+  - "seeking employment"
+  - "student"
+  - "intern"
+  - "consultant"  # Unless you sell to consultants
+
+# Revenue estimation hints
+revenue_hints:
+  tiny: { employees: "1-10", estimated_revenue: "$100K-$500K" }
+  small: { employees: "11-50", estimated_revenue: "$500K-$2M" }
+  medium: { employees: "51-200", estimated_revenue: "$2M-$10M" }
+  large: { employees: "201-500", estimated_revenue: "$10M-$50M" }

@@ -1,0 +1,106 @@
+# Restaurant Industry Template
+# Arabic Content Calendar
+
+industry: restaurant
+tone: warm_friendly
+
+content_pillars:
+  - menu_highlights:
+      weight: 0.25
+      themes:
+        - signature_dishes
+        - seasonal_specials
+        - chef_recommendations
+        - new_items
+  
+  - behind_scenes:
+      weight: 0.20
+      themes:
+        - kitchen_prep
+        - ingredient_sourcing
+        - chef_story
+        - team_spotlight
+  
+  - customer_experience:
+      weight: 0.20
+      themes:
+        - ambiance
+        - service
+        - testimonials
+        - celebrations
+  
+  - cultural_moments:
+      weight: 0.20
+      themes:
+        - ramadan_iftar
+        - eid_specials
+        - national_days
+        - weekend_brunch
+  
+  - promotional:
+      weight: 0.15
+      themes:
+        - discounts
+        - loyalty
+        - reservations
+        - delivery
+
+arabic_food_vocabulary:
+  appetizers: مقبلات
+  main_course: طبق_رئيسي
+  dessert: حلويات
+  beverages: مشروبات
+  chef: شيف
+  kitchen: مطبخ
+  fresh: طازج
+  homemade: محضر_منزلياً
+  traditional: تقليدي
+  spices: بهارات
+  flavor: نكهة
+  aroma: رائحة
+
+ramadan_adjustments:
+  posting_times:
+    - "03:30"  # Suhoor time
+    - "18:30"  # Just before Iftar
+    - "21:00"  # After Taraweeh
+  
+  content_themes:
+    - iftar_menus
+    - suhoor_packages
+    - family_gatherings
+    - ramadan_atmosphere
+    - charity_initiatives
+
+hashtags_ar:
+  - "#مطعم"
+  - "#طعام"
+  - "#إفطار"
+  - "#سحور"
+  - "#مذاق"
+  - "#شهي"
+  - "#مطبخ_عربي"
+  - "#حلال"
+
+hashtags_en:
+  - "#restaurant"
+  - "#foodie"
+  - "#delicious"
+  - "#dining"
+  - "#foodphotography"
+  - "#halal"
+  - "#arabicfood"
+
+sample_hooks_ar:
+  - "السر وراء طبقنا الأشهر..."
+  - "هل جربت...؟"
+  - "من مطبخنا إلى مائدتك"
+  - "نكهات تروي قصة"
+  - "ضيافة على أصولها"
+
+sample_hooks_en:
+  - "The secret behind our signature dish..."
+  - "Have you tried...?"
+  - "From our kitchen to your table"
+  - "Flavors that tell a story"
+  - "Hospitality, the authentic way"
