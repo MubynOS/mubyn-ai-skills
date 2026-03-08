@@ -1,0 +1,73 @@
+{
+  "generated": "2026-03-08T15:19:24.943Z",
+  "business": "SaaS startup in San Francisco",
+  "month": "March 2026",
+  "template": "general",
+  "holidays": [
+    {
+      "date": "2026-03-08",
+      "name": "International Women's Day"
+    },
+    {
+      "date": "2026-03-17",
+      "name": "St. Patrick's Day"
+    },
+    {
+      "date": "2026-03-29",
+      "name": "British Summer Time begins (UK)"
+    }
+  ],
+  "platforms": {
+    "x": [
+      {
+        "day": 1,
+        "date": "2026-03-01",
+        "content": "Kickstart your productivity with these top 3 tools to streamline workflows. Discover efficiency like never before! 🚀 #Productivity #Efficiency #BusinessGrowth #SaaSTools",
+        "hashtags": [
+          "#Productivity",
+          "#Efficiency",
+          "#BusinessGrowth",
+          "#SaaSTools"
+        ],
+        "content_type": "value",
+        "posting_time": "09:00",
+        "image_prompt": "A vibrant illustration of digital tools enhancing productivity"
+      },
+      {
+        "day": 8,
+        "date": "2026-03-08",
+        "content": "Celebrating the incredible women of our team this International Women's Day! 🎉 Share your stories of amazing women in business. #IWD2026 #WomenInTech #Diversity #TeamSpirit",
+        "hashtags": [
+          "#IWD2026",
+          "#WomenInTech",
+          "#Diversity",
+          "#TeamSpirit"
+        ],
+        "content_type": "seasonal",
+        "posting_time": "11:00",
+        "image_prompt": "A diverse team of women collaborating in an office setting"
+      },
+      {
+        "day": 15,
+        "date": "2026-03-15",
+        "content": "Ready to elevate your business? Try our platform risk-free for 30 days and experience the future of efficiency. 🌟 #FreeTrial #SaaS #BusinessInnovation #GetStarted",
+        "hashtags": [
+          "#FreeTrial",
+          "#SaaS",
+          "#BusinessInnovation",
+          "#GetStarted"
+        ],
+        "content_type": "promotional",
+        "posting_time": "14:00",
+        "image_prompt": "A futuristic digital interface with a 'Start Free Trial' button prominently displayed"
+      }
+    ]
+  },
+  "qualityReport": {
+    "x": {
+      "postsGenerated": 3,
+      "issues": [],
+      "passed": true
+    }
+  }
+}
