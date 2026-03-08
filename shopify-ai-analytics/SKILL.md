@@ -465,3 +465,4 @@ shopify-ai-analytics/
 ---
 
 *Turn your Shopify data into revenue. Let AI be your analyst.* 📊
+
